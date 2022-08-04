@@ -20,7 +20,7 @@ const Button = styled.button`
     props.menu &&
     css`
         position: absolute;
-        left: 540px;
+        left: 533px;
     `}
 
     &:hover {

@@ -1,0 +1,45 @@
+.mainContainer {
+    width: 700px;
+    margin: 100px auto;
+}
+
+.blockViewContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.blockViewButton {
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+
+.blockViewButton:hover {
+    background-color: rgb(79, 133, 181);
+    color: white;
+}
+
+.typeSelectorButtons {
+    position: absolute;
+    width: 200px;
+    flex-direction: column;
+    left: 392px;
+    top: 150px;
+    z-index: 100;
+    border: solid 1px #ccc;
+}
+
+@media (max-width: 400px) {
+    .typeSelectorButtons {
+        position: absolute;
+        left: 53px;
+        top: 19px;
+    }
+
+    .mainContainer {
+        margin: 0 auto;
+        width: 344px;
+    }
+}

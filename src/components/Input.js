@@ -9,6 +9,7 @@ const Input = styled.input`
     ${props =>
     props.border &&
     css`
+        border-bottom: solid 1px #f7f7f7;
         border-left: solid 2px #ccc;
     `}
 
